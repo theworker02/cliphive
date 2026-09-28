@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/cliphive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clip filesystem hive paths across POSIX and Windows conventions.",
+  "bin": {
+    "cliphive": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/cliphive.git"
+  },
+  "homepage": "https://theworker02.github.io/cliphive/",
+  "keywords": [
+    "clip",
+    "hive",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
